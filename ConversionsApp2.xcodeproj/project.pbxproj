@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80441BB61CA30E0300697A45 /* GenerateProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80441BB51CA30E0300697A45 /* GenerateProblem.swift */; };
 		808076E81C6403B000CED9CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808076E71C6403B000CED9CB /* AppDelegate.swift */; };
-		808076EA1C6403B000CED9CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808076E91C6403B000CED9CB /* ViewController.swift */; };
+		808076EA1C6403B000CED9CB /* ConversionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808076E91C6403B000CED9CB /* ConversionsController.swift */; };
 		808076ED1C6403B000CED9CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808076EB1C6403B000CED9CB /* Main.storyboard */; };
 		808076EF1C6403B000CED9CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808076EE1C6403B000CED9CB /* Assets.xcassets */; };
 		808076F21C6403B000CED9CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808076F01C6403B000CED9CB /* LaunchScreen.storyboard */; };
 		808076FD1C6403B000CED9CB /* ConversionsApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808076FC1C6403B000CED9CB /* ConversionsApp2Tests.swift */; };
 		808077081C6403B000CED9CB /* ConversionsApp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808077071C6403B000CED9CB /* ConversionsApp2UITests.swift */; };
+		808077161C64046D00CED9CB /* ConversionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808077151C64046D00CED9CB /* ConversionsApp.swift */; };
+		80F10BD21C988273007C2994 /* submitGo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F10BD11C988273007C2994 /* submitGo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		80441BB51CA30E0300697A45 /* GenerateProblem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateProblem.swift; sourceTree = "<group>"; };
 		808076E41C6403B000CED9CB /* ConversionsApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConversionsApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		808076E71C6403B000CED9CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		808076E91C6403B000CED9CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		808076E91C6403B000CED9CB /* ConversionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionsController.swift; sourceTree = "<group>"; };
 		808076EC1C6403B000CED9CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		808076EE1C6403B000CED9CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		808076F11C6403B000CED9CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		808077031C6403B000CED9CB /* ConversionsApp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConversionsApp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		808077071C6403B000CED9CB /* ConversionsApp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionsApp2UITests.swift; sourceTree = "<group>"; };
 		808077091C6403B000CED9CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808077151C64046D00CED9CB /* ConversionsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionsApp.swift; sourceTree = "<group>"; };
+		80F10BD11C988273007C2994 /* submitGo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = submitGo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				808076E71C6403B000CED9CB /* AppDelegate.swift */,
-				808076E91C6403B000CED9CB /* ViewController.swift */,
+				808076E91C6403B000CED9CB /* ConversionsController.swift */,
 				808076EB1C6403B000CED9CB /* Main.storyboard */,
+				80441BB51CA30E0300697A45 /* GenerateProblem.swift */,
+				80F10BD11C988273007C2994 /* submitGo.swift */,
+				808077151C64046D00CED9CB /* ConversionsApp.swift */,
 				808076EE1C6403B000CED9CB /* Assets.xcassets */,
 				808076F01C6403B000CED9CB /* LaunchScreen.storyboard */,
 				808076F31C6403B000CED9CB /* Info.plist */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				808076EA1C6403B000CED9CB /* ViewController.swift in Sources */,
+				808077161C64046D00CED9CB /* ConversionsApp.swift in Sources */,
+				80441BB61CA30E0300697A45 /* GenerateProblem.swift in Sources */,
+				808076EA1C6403B000CED9CB /* ConversionsController.swift in Sources */,
 				808076E81C6403B000CED9CB /* AppDelegate.swift in Sources */,
+				80F10BD21C988273007C2994 /* submitGo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +496,7 @@
 				8080770E1C6403B000CED9CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8080770F1C6403B000CED9CB /* Build configuration list for PBXNativeTarget "ConversionsApp2Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				808077111C6403B000CED9CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		808077121C6403B000CED9CB /* Build configuration list for PBXNativeTarget "ConversionsApp2UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				808077141C6403B000CED9CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
